@@ -1,0 +1,15 @@
+pages:
+    main- login/signup
+    login
+    signup
+    home
+    user profile
+    event page
+    post_comments*
+
+popups:
+    post_comments
+    chat
+    create_post
+
+

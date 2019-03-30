@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Login on HelpingHands</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <a class="home" href="/">Home</a>
+    </header>
+    <div id="content">
+        <div id="login_form">
+            <h2>Log in to HelpingHands</h2>
+            <form action="/login" method="post">
+                <input class="cool-input" placeholder="Email" type="text" name="email">
+                <input class="cool-input" placeholder="Password" type="password" name="password">
+                <button type="submit" class="cool-button">Log In</button>
+            </form>
+        </div>
+        <div id="signup_redirect">
+            <p class="signup-redirect-p">New to HelpingHands? <a href="/signup">Sign up now »</a></p>
+        </div>
+    </div>
+</body>
+</html>

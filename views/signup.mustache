@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign up for HelpingHands</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <header>
+        <a class="home" href="/">Home</a>
+    </header>
+    <div id="content">
+        <div id="signup_form">
+            <h2>Sign up for HelpingHands</h2>
+            <form action="/signup" method="post">
+                <input class="cool-input" placeholder="First name" type="text" name="fname" required>
+                <input class="cool-input" placeholder="Last name" type="text" name="lname">
+                <input class="cool-input" placeholder="Email" type="email" name="email" required>
+                <input class="cool-input" placeholder="New password" type="password" name="password" required id="password">
+                <input class="cool-input" placeholder="Confirm password" type="password" name="confirm_password" required id="confirm_password">
+                <span id="message"></span>
+                <input class="cool-input" placeholder="Age" type="number" min="13" max="70" name="age" required>
+                <select name="gender" class="cool-input" required>
+                  <option disabled selected value="">Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                  <option value="O">Other</option>
+                </select>
+                <input type="tel" placeholder="phone" name="phone"
+       pattern="[0-9]{10}" class="cool-input"
+       required>
+                <button type="submit" class="cool-button" id="submit">Sign up</button>
+            </form>
+        </div>
+        <div id="login_redirect">
+            <p class="login-redirect-p">Already a member? <a href="/login">Log in now »</a></p>
+        </div>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>

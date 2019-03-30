@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-height: 100%;
+    margin: 0px;
+    background: #e6ecf0;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+.home {
+    margin: 0 25%;
+    padding: 10px 5px;
+    color: #66757f;
+    display: block;
+}
+
+#content {
+    margin: 4% 25%;
+}
+
+#signup_form {
+    background-color: white;
+    padding: 1% 10%;
+}
+
+#login_redirect {
+    background-color: #f5f8fa;
+}
+
+.login-redirect-p {
+    margin: 0;
+    padding: 3% 10%;
+}
+
+.cool-input {
+    margin: 2% 0;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+    width: 50%;
+    outline-color: #1da1f2;
+}
+
+.cool-button {
+    display: block;
+    border: none;
+    padding: 6px 16px;
+    margin-top: 5%;
+    text-decoration: none;
+    background: #1da1f2;
+    color: #ffffff;
+    border-radius: 100px;
+    box-shadow: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+}
+
+.cool-button:hover,
+.cool-button:focus {
+    background: #0053ba;
+}
+
+.cool-button:focus {
+    box-shadow: 0 0 0 2pt #1da1f2;
+}
+
+.cool-button:active {
+    transform: scale(0.99);
+}
+
+#confirm_password {
+    display: inline-block;
+    margin: 0;
+}
