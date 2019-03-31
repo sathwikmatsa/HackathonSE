@@ -2,24 +2,30 @@
   "name": "HackathonSE",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "app": "nodemon --watch *.js --watch views --watch public index.js -e js,mustache,html,css"
+    "app": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sathwikmatsa/HackathonSE.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Sathwik Matsa",
+    "email": "sathwikmatsa@gmail.com",
+    "url": "https://twitter.com/sathwikmatsa"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sathwikmatsa/HackathonSE/issues"
   },
   "homepage": "https://github.com/sathwikmatsa/HackathonSE#readme",
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-nodemon": "^2.4.2"
   },
   "dependencies": {
     "bcrypt": "^3.0.5",
