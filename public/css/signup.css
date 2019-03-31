@@ -91,3 +91,7 @@ header {
     display: inline-block;
     margin: 0;
 }
+
+.error-message {
+    color: red;
+}

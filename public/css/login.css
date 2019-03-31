@@ -86,3 +86,7 @@ header {
 .cool-button:active {
     transform: scale(0.99);
 }
+
+.error-message {
+    color: red;
+}

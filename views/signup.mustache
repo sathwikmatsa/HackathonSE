@@ -13,6 +13,7 @@
     <div id="content">
         <div id="signup_form">
             <h2>Sign up for HelpingHands</h2>
+            <p class="error-message">{{& error}}</p>
             <form action="/signup" method="post">
                 <input class="cool-input" placeholder="First name" type="text" name="fname" required>
                 <input class="cool-input" placeholder="Last name" type="text" name="lname">
