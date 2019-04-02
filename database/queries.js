@@ -36,7 +36,7 @@ const createUser = (request, response) => {
                 if (error) {
                     throw error;
                 }
-                response.redirect("/home");
+                response.redirect("/login");
             })
         });
     });

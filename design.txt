@@ -6,6 +6,7 @@ pages:
     user profile
     event page
     post_comments*
+    search page
 
 popups:
     post_comments

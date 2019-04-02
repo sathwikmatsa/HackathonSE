@@ -1,0 +1,202 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-height: 100%;
+    margin: 0px;
+    background: #030303;
+    color: white;
+    overflow: auto;
+}
+
+header {
+    width: 100%;
+    background-color: #1a191a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-icon {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
+
+.header-title {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.search-bar {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 6px;
+    background-color: #1A1A1B; 
+    color: #D7DADC;
+    border: 1px solid #e6ecf0;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #343536;
+    width: 100%;
+    margin-left: 5px;
+    outline-color: white;
+}
+
+.user-icon {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
+
+.username {
+    font-weight: bolder;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+}
+
+.posts {
+    background-color: #1a191a;
+    color: white;
+    margin-right: 27%;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.sticky-menu {
+    width: 23%;
+    margin-left: 75%;
+    margin-right: 2%;
+    position: sticky;
+    bottom: 15px;
+}
+
+.create-post {
+    background-color: #1a191a;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.trending-events {
+    background-color: #1a191a;
+    color: white;
+}
+
+.intro-message {
+    color: rgb(215, 218, 220);
+    fill: rgb(215, 218, 220);
+}
+
+.backtotop-button {
+    font-size: 12px;
+    line-height: 24px;
+    background-color: rgb(215, 218, 220);
+    color: rgb(26, 26, 27);
+    fill: rgb(26, 26, 27);
+    width: 128px;
+    padding: 3px 16px;
+}
+
+.createpost-button {
+    background-color: rgb(215, 218, 220);
+    color: rgb(26, 26, 27);
+    fill: rgb(26, 26, 27);
+    font-size: 14px;
+    line-height: 32px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 16px;
+}
+
+.createevent-button {
+    background-color: transparent;
+    color: rgb(215, 218, 220);
+    fill: rgb(215, 218, 220);
+    font-size: 14px;
+    line-height: 32px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 16px;
+}
+
+.cool-button {
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 4px;
+    text-decoration: none;
+    border-color: rgb(215, 218, 220);
+}
+
+.nostyle {
+    all: unset;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color:#1a191a ;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(215, 218, 220);
+    color: #1a1a1b;
+}

@@ -4,10 +4,38 @@
 <head>
     <meta charset="utf-8">
     <title>Home / HelpingHands</title>
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <h1>Welcome to home {{fname}} {{lname}}</h1>
-    <br>
-    <a href="/logout">Log Out</a>
+    <header>
+        <div class="logo">
+            <img src="img/helpinghands.png" class="header-icon"/>
+            <p class="header-title">HelpingHands</p>
+        </div>
+        <div class="search">
+            <img src="img/search.png" class="search-icon"/>
+            <input type="search" placeholder="Search HelpingHands" class="search-bar">
+        </div>
+        <div class="user">
+            <img src="img/user.png" class="user-icon"/>
+            <button class="nostyle" id="user_button"><p class="username">{{fname}} {{lname}} <img src="img/dropdown.svg"></p></button>
+            <div id="user_dropdown" class="dropdown-content">
+                <a href="/logout">Log Out</a>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="posts" id="posts_div"></div>
+        <div class="sticky-menu">
+            <div class="create-post" id="create_post">
+                <p class="intro-message">Your personal HelpingHands page. Come here to find nearby events and things to do with your community.</p>
+                <a href="/submit" class="cool-button createpost-button">CREATE POST</a>
+                <a href="/events/create" class="cool-button createevent-button">CREATE EVENT</a>
+            </div>
+            <div class="trending-events" id="trending_events"></div>
+            <button class="cool-button backtotop-button" id="back_to_top">BACK TO TOP</button>
+        </div>
+    </div>
+    <script src="js/home.js"></script>
 </body>
 </html>
